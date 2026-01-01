@@ -1,0 +1,16 @@
+# PPSD: A Private Pipeline for Synthetic-Data Sharing
+
+This repository contains the source code for the PPSD pipeline, a framework for privacy-preserving data donation using generative AI, with a case study on genomic data.
+
+## Code Structure
+
+-   `ACGAN.py`: Implements Steps 1-2 (Data Preparation & Model Training).
+-   `Analyze.py`: Implements Step 3 (Synthetic Data Quality Evaluation).
+-   `Membership Inference Attack/`: Contains scripts for Step 4 (Security Assessment).
+-   `xai.py`: Implements Step 5 (Interpretability & Privacy Evaluation).
+-   `generate_synth_data.py`: A script to generate sample data for testing purposes.
+
+
+
+
+**Important:** Due to data access restrictions and privacy commitments, the original genomic dataset used for this research cannot be made publicly available.
